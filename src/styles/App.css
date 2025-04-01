@@ -1,0 +1,12 @@
+.page-container {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.page-right {
+  width: 50%;
+  box-sizing: border-box;
+}
