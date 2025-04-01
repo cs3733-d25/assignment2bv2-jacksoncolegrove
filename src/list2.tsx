@@ -1,3 +1,5 @@
+import './styles/list2.css'
+
 function List2() {
 
     return (
