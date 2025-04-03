@@ -2,7 +2,7 @@
 
 function Table1() {
     return (
-        <table>
+        <table className="collapseTable">
             <caption>2024 Paris Olympics Rowing Events</caption>
             <thead>
             <tr>

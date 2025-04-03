@@ -3,23 +3,22 @@
 function Form1(){
     return (
         <form>
-            <label htmlFor="fullname">Enter your full name:</label>
+            <label className="hobby1Label" htmlFor="fullname">Enter your full name:</label>
             <input type="text" id="fullname"/>
             <br/>
-            <label htmlFor="email">Enter your email:</label>
+            <label className="hobby1Label" htmlFor="email">Enter your email:</label>
             <input type="text" id="email"/>
             <br/><br/>
             <p>I would you like to receive notifications for the following:</p>
-            <br/><br/>
             <input type="checkbox" id="newsletter"/>
-            <label htmlFor="newsletter">Weekly Rowing News Letter</label>
+            <label className="hobby1Label" htmlFor="newsletter">Weekly Rowing News Letter</label>
             <br/>
             <input type="checkbox" id="dates"/>
-            <label htmlFor="dates">Upcoming Events</label>
+            <label className="hobby1Label" htmlFor="dates">Upcoming Events</label>
             <br/><br/>
 
             <p>What is your skill level?</p>
-            <select>
+            <select className="hobby1Label">
                 <option value="">-- Select an option --</option>
                 <option value="1">Never Rowed</option>
                 <option value="2">Novice</option>
@@ -28,23 +27,23 @@ function Form1(){
             </select>
             <p>Please select your age:</p>
             <input type="radio" id="age1" name="age" value="18"/>
-            <label htmlFor="age1">0 - 18</label><br/>
+            <label className="hobby1Label" htmlFor="age1">0 - 18</label><br/>
             <input type="radio" id="age2" name="age" value="23"/>
-            <label htmlFor="age2">18-23</label><br/>
+            <label className="hobby1Label" htmlFor="age2">18-23</label><br/>
             <input type="radio" id="age3" name="age" value="30"/>
-            <label htmlFor="age3">23-30</label><br/>
+            <label className="hobby1Label" htmlFor="age3">23-30</label><br/>
             <input type="radio" id="age4" name="age" value="100"/>
-            <label htmlFor="age4">30+</label><br/>
+            <label className="hobby1Label" htmlFor="age4">30+</label><br/>
 
             <p>Please select your pronouns:</p>
             <input type="radio" id="pronouns1" name="pronouns" value="they/them"/>
-            <label htmlFor="pronouns1">they/them</label><br/>
+            <label className="hobby1Label" htmlFor="pronouns1">they/them</label><br/>
             <input type="radio" id="pronouns2" name="pronouns" value="she/her"/>
-            <label htmlFor="pronouns2">she/her</label><br/>
+            <label className="hobby1Label" htmlFor="pronouns2">she/her</label><br/>
             <input type="radio" id="pronouns3" name="pronouns" value="he/him"/>
-            <label htmlFor="pronouns3">he/him</label><br/>
+            <label className="hobby1Label" htmlFor="pronouns3">he/him</label><br/>
             <input type="radio" id="pronouns4" name="pronouns" value="other"/>
-            <label htmlFor="pronouns4">other</label>
+            <label className="hobby1Label" htmlFor="pronouns4">other</label>
             <br/><br/>
 
             <p>Please agree to our privacy terms and conditions:</p>
@@ -76,9 +75,9 @@ function Form1(){
 
             <br/>
             <input type="checkbox" id="agree"/>
-            <label htmlFor="agree">I agree to the Terms & Conditions</label>
+            <label className="hobby1Label" htmlFor="agree">I agree to the Terms & Conditions</label>
             <br/><br/>
-            <label htmlFor="comments">Comments</label>
+            <label className="hobby1Label" htmlFor="comments">Comments</label>
             <br/>
             <textarea id="comments"></textarea>
             <br/>

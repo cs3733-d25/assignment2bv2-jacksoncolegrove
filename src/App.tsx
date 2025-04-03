@@ -11,13 +11,12 @@ function App() {
   return (
       <>
           <Title/>
+          <Intro fullName1="Jackson Colegrove" fullName2="Minh Ha" firstName1="Jackson" firstName2="Minh"/>
           <div className="page-container">
               <div className="Jackson-left">
-                  <Intro firstName="Jackson" lastName="Colegrove"/>
                   <JacksonHobby/>
               </div>
               <div className="Minh-right">
-                  <Intro firstName="Minh" lastName="Ha"/>
                   <MinhHobby/>
               </div>
           </div>

@@ -1,6 +1,3 @@
-import './styles/title.css'
-
-
 
 function title(){
     return (

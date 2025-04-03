@@ -1,4 +1,3 @@
-import './styles/table2.css'
 
 function Table2() {
     return (

@@ -1,4 +1,4 @@
-import './styles/list2.css'
+import './styles/list.css'
 
 function List2() {
 

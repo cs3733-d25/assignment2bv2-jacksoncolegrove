@@ -1,3 +1,12 @@
+.title {
+  display: flex;
+  background-color: rgb(192, 13, 4);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: white;
+}
+
 .page-container {
   display: flex;
   padding-left: 10px;
@@ -10,3 +19,101 @@
   width: 50%;
   box-sizing: border-box;
 }
+
+.hobby2 {
+
+}
+
+.hobby1 {
+  color: #FFF5E1;
+  background-color: #1C4D2E;
+  padding: 10px;
+  h4 {font-size: 20px;}
+  h1, h2, h4, h5 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+  }
+  p, table, ul, ol{
+    font-family: "Playfair Display", serif; font-size: 18px; font-style: oblique;
+  }
+
+  h3 {font-family: "Playfair Display", serif; font-size: 22px; font-style: oblique;}
+}
+
+.hobby1Label {
+  font-family: "Playfair Display", serif; font-size: 16px; font-style: oblique;;
+}
+
+#boat {
+  width: 100%;
+  height:100%;
+  display: flex;
+}
+
+.boatPicture {
+  padding: 8px;
+  background-color: #3E7D5E;
+  border: 2px solid #FFF5E1;
+  border-radius: 10px;
+}
+
+#f1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.creamLine {
+  border-color: #FFF5E1;
+}
+
+.info {
+  margin-right: 110px;
+  margin-left: 110px;
+}
+
+.collapseTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-spacing: 0;
+  border-radius: 15px;
+  border: 4px solid #FFF5E1;
+  overflow: auto;
+
+  tr, td, th {
+    border: 1px solid #FFF5E1;
+    text-align: center;
+  }
+}
+
+
+.collapse {
+  margin: 10px;
+  border-collapse: collapse;
+  color: black;
+}
+
+
+.collapse th, .collapse td {
+  border: 2px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+
+.collapse th {
+  background-color: red;
+  color: white;
+}
+
+.collapse tr#mclaren{
+  background-color: rgb(227, 127,30);
+}
+.collapse tr#redbull{
+  background-color: rgb(78, 113, 194);
+}
+.collapse tr#mercedes{
+  background-color: rgb(141, 243, 210);
+}
+
