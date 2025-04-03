@@ -13,10 +13,10 @@ function App() {
           <Title/>
           <Intro fullName1="Jackson Colegrove" fullName2="Minh Ha" firstName1="Jackson" firstName2="Minh"/>
           <div className="page-container">
-              <div className="Jackson-left">
+              <div className="jackson-left">
                   <JacksonHobby/>
               </div>
-              <div className="Minh-right">
+              <div className="minh-right">
                   <MinhHobby/>
               </div>
           </div>
